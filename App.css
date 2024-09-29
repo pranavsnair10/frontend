@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://images.hdqwalls.com/download/train-railways-dark-evening-photography-0p-3840x2160.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background-image: linear-gradient(rgb(45, 43, 43),white);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  transition: transform 0.1s;
+}
+
+.App:hover {
+  transform: scale(1.04);
+}
+
+h1 {
+  text-align: center;
+  color: #fbf9f9;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: rgb(252, 247, 247);
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0c7036;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border: 1px white;
+  border-radius: 4px;
+  margin: 5px 0;
+}
